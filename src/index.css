@@ -7,6 +7,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+main {
+  display: grid;
+  grid-template-areas: repeat(4, 1fr) / repeat(2, 1fr);
+
+}
+
+.box {
+  border: thick black solid;
+  
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
